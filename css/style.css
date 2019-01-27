@@ -156,11 +156,18 @@ ul {
   list-style-type: none;
 }
 
-.biopic {
+/*.container{
+  max-width: 200px; margin: auto;
+  float: left;
+}*/
 
-  background-image: url("images/2b.jpg");
-  background-size: cover;
-  
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+  height: auto;
+  max-width:100%;
 }
 
 img {

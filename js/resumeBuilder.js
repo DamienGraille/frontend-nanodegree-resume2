@@ -90,6 +90,7 @@ var projects = {
 }
 console.log(projects)
 
+
 formattedbioname = HTMLheaderName.replace("%data%", bio.name);
 $("#header").append(formattedbioname);
 formattedrole = HTMLheaderRole.replace("%data%", bio.role);
