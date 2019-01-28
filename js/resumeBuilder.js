@@ -95,18 +95,18 @@ formattedbioname = HTMLheaderName.replace("%data%", bio.name);
 $("#header").append(formattedbioname);
 formattedrole = HTMLheaderRole.replace("%data%", bio.role);
 $("#header").append(formattedrole);
-formattedmessage = HTMLwelcomeMsg.replace("%data%", bio.welcomemessage);
-$("#header").append(formattedmessage);
 formattedbiopic = HTMLbioPic.replace("%data%", bio.biopic);
 $("#header").append(formattedbiopic);
+formattedmessage = HTMLwelcomeMsg.replace("%data%", bio.welcomemessage);
+$("#topContacts").append(formattedmessage);
 formattedmobile = HTMLmobile.replace("%data%", bio.contacts.mobilenumber);
-$("#header").append(formattedmobile);
+$("#topContacts").append(formattedmobile);
 formattedemail = HTMLemail.replace("%data%", bio.contacts.email);
-$("#header").append(formattedemail);
+$("#topContacts").append(formattedemail);
 formattedgithub = HTMLgithub.replace("%data%", bio.contacts.github);
-$("#header").append(formattedgithub);
+$("#topContacts").append(formattedgithub);
 formattedloc = HTMLlocation.replace("%data%", bio.contacts.location);
-$("#header").append(formattedloc);
+$("#topContacts").append(formattedloc);
 
 
 if(bio.skills.length > 0){

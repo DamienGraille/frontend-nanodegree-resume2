@@ -152,14 +152,15 @@ a {
   padding: 2.5% 5%;
 }
 
+
 ul {
   list-style-type: none;
 }
 
-/*.container{
+.container{
   max-width: 200px; margin: auto;
   float: left;
-}*/
+}
 
 .biopic {
   float: left;
@@ -220,7 +221,7 @@ span {
   padding-bottom: 5%;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 150px) {
   #skills-h3,
   .biopic {
     display: block;
