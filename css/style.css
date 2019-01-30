@@ -102,6 +102,11 @@ a {
 #skills-h3 {
   color: #f5ae23;
   display: none;
+  padding-left: -40%;
+}
+
+#skills {
+  display:inline
 }
 
 .orange {
@@ -229,10 +234,4 @@ span {
   }
 }
 
-/*@media only screen and (min-width: 850px) {
-  #skills-h3,
-  #topContacts,
-  .welcome-message {
-    display: block;
-  }
-}
+
