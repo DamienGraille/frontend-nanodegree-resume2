@@ -28,7 +28,13 @@ h1 {
   font-size: 40px;
   color: #f5a623;
   line-height: 48px;
-  display: inline;
+  display:inline-block;
+  
+}
+
+
+.role{
+  display:inline;
 }
 
 h2 {
@@ -226,10 +232,11 @@ span {
   padding-bottom: 5%;
 }
 
-@media only screen and (min-width: 150px) {
+@media only screen and (min-width: 320px) {
   #skills-h3,
   .welcome-message,
-  .biopic {
+  .biopic,
+  .role{
     display: inline-block;
   }
 }
